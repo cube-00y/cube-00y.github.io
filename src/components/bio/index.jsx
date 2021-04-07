@@ -23,14 +23,15 @@ export const Bio = () => (
                 }}
               />
               <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
                 <Link to={'/about'} className="author-name-content">
-                  <span>@{author}</span>
+                  <span>{author}</span>
                 </Link>
-                <div className="author-introduction">{introduction}</div>
+                <div className="author-introduction" dangerouslySetInnerHTML={{
+                  __html: introduction
+                }} />
                 <p className="author-socials">
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`} target="_blank">GitHub</a>
                   )}
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>

@@ -1,12 +1,13 @@
 module.exports = {
-  title: `Bee starter`,
+  title: `Cube's Devlog`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  author: `박건우(GunWoo Park) | Cube`,
+  introduction: `경험으로 배워나가는 프론트엔드 개발자입니다. 더 나은 코드를 작성하기 위해 
+  끊임없이 고민하고,<br> 항상 부족하다는 마음가짐으로 공부하며 배워나가고 있습니다.`,
+  siteUrl: `https://cube-dev.me`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `cube-00y`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
@@ -15,13 +16,13 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'cube-00y/cube-00y.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2

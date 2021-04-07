@@ -1,4 +1,4 @@
-## [💻 Cube Blog](https://github.com/cube-00y/cube-00y.github.io)
+## [💻 Cube Blog](https://cube-dev.me)
 
 ---
 
